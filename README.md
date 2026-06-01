@@ -62,11 +62,9 @@ Refer to the [TanStack Start hosting docs](https://tanstack.com/start/latest/doc
 
 ## Goodies
 
-#### Git hooks
+#### Upgrading dependencies
 
-We use [Husky](https://typicode.github.io/husky/) to run git hooks with the following tools:
-
-- [lint-staged](https://github.com/lint-staged/lint-staged) - Run Oxfmt to format staged files on commit (`pre-commit`).
+Dependency versions are pinned, so they may be slightly outdated when you create your project. To selectively upgrade packages, run `pnpm deps` or `pnx taze@latest -Ilw --maturity-period 3`.
 
 #### Scripts
 
